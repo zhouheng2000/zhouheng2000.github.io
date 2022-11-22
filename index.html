@@ -19,12 +19,13 @@
   <canvas id="pinkboard">
 
   </canvas>
-  <video id="v1" autoplay muted loop>
+  <video id="v1" autoplay muted loop x5-video-player-fullscreen="true" x5-playsinline playsinline webkit-playsinline>
     <source src="./1.mp4">
   </video>
   <script src="./vue.js"></script>
   <script src="./index.js"></script>
   <script>
+    document.getElementById('v1').play();
   </script>
 </body>
 
